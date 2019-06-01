@@ -36,7 +36,7 @@ n = int(input())
 shift = int(input())
 wastedTime = 0
 
-while wastedTime <= 0.001:
+while wastedTime <= 1:
 	X = np.append(X, n)
 	A = np.random.rand(n,n)
 	for i in range(n):
