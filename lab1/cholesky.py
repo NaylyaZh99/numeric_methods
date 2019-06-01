@@ -4,7 +4,7 @@ from math import *
 import time
 import matplotlib.pyplot as plt
 
-def kholez(n, A):
+def cholesky(n, A):
 	for k in range(0, n):
 		A[k][k] = sqrt(A[k][k])
 		for i in range(k + 1, n):
