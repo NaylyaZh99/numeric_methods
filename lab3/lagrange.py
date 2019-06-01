@@ -17,10 +17,10 @@ def Lagrange(x, y, z):
 		s = s + y[i] * phi (i, z)   
 	return s
 
-X = open('train1.dat', 'r')
-Y = open('train1.ans', 'r')
-Z = open('test1.dat', 'r')
-F = open('test1.ans', 'w')
+X = open('train2.dat', 'r')
+Y = open('train2.ans', 'r')
+Z = open('test2.dat', 'r')
+F = open('test2.ans', 'w')
 
 x = [float(i) for i in X.readline().split()]
 y = [float(i) for i in Y.readline().split()]
